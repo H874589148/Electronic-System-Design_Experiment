@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:/FPGA_EXP/counter4/simulation/modelsim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1603373475
+V>2P>acQ44HLIAl5kR^X<d3
+04 11 7 work counter4_tb arch_tb 1
+=1-6c0b84915374-5f9189a3-2c3-1098
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+n@_opt
+OL;O;10.2c;57
+Ecounter4
+Z2 w1603373090
+Z3 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z5 dE:/FPGA_EXP/counter4/simulation/modelsim
+Z6 8E:/FPGA_EXP/counter4/counter4.vhd
+Z7 FE:/FPGA_EXP/counter4/counter4.vhd
+l0
+L5
+VYZ5aQWN6m=@^ddn:1bhBM0
+Z8 OL;C;10.2c;57
+31
+R1
+Z9 !s108 1603373475.489000
+Z10 !s90 -reportprogress|300|-93|-work|work|E:/FPGA_EXP/counter4/counter4.vhd|
+Z11 !s107 E:/FPGA_EXP/counter4/counter4.vhd|
+Z12 o-93 -work work
+Z13 tExplicit 1
+!s100 i4c@kaJZod>YNDB]IEz5R2
+!i10b 1
+!i111 0
+Abehave
+R3
+R4
+DEx4 work 8 counter4 0 22 YZ5aQWN6m=@^ddn:1bhBM0
+l15
+L13
+VT3:Szo<??^g7>N^SDT[XN0
+R8
+31
+R1
+R9
+R10
+R11
+R12
+R13
+!s100 U6H?Wn8:42<d7M@VT0SLN0
+!i10b 1
+!i111 0
+Ecounter4_tb
+Z14 w1603372447
+R3
+R4
+R5
+Z15 8E:/FPGA_EXP/counter4/counter4_tb.vhd
+Z16 FE:/FPGA_EXP/counter4/counter4_tb.vhd
+l0
+L5
+V>1MWLO<:Qo1Le`M`;=kCG2
+R8
+31
+R1
+Z17 !s108 1603373475.551000
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/FPGA_EXP/counter4/counter4_tb.vhd|
+Z19 !s107 E:/FPGA_EXP/counter4/counter4_tb.vhd|
+R12
+R13
+!s100 XQ8ULdMd1zN2D^3JoI2Ce0
+!i10b 1
+!i111 0
+Aarch_tb
+R3
+R4
+DEx4 work 11 counter4_tb 0 22 >1MWLO<:Qo1Le`M`;=kCG2
+l21
+L8
+V]^RFO9W28h?fg@Mgoe3n33
+R8
+31
+R1
+R17
+R18
+R19
+R12
+R13
+!s100 lP68UT=dDe@Mhj3dLZkZ33
+!i10b 1
+!i111 0

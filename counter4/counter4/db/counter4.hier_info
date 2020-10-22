@@ -1,0 +1,21 @@
+|counter4
+d1 => Mux0.IN4
+d1 => Mux1.IN4
+d1 => Mux2.IN4
+d1 => Mux3.IN4
+d1 => q[0].DATAIN
+d0 => Mux0.IN5
+d0 => Mux1.IN5
+d0 => Mux2.IN5
+d0 => Mux3.IN5
+d0 => q[2].DATAIN
+p <= <VCC>
+q[0] <= d1.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= d0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= <GND>
+q[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

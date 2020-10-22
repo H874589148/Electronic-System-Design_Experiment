@@ -1,0 +1,35 @@
+|FPGA_EXP1
+y0_n <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+y1_n <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y2_n <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y3_n <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y4_n <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+y5_n <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+y6_n <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+y7_n <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+a => Mux0.IN8
+a => Mux1.IN8
+a => Mux2.IN8
+a => Mux3.IN8
+a => Mux4.IN8
+a => Mux5.IN8
+a => Mux6.IN8
+a => Mux7.IN8
+b => Mux0.IN9
+b => Mux1.IN9
+b => Mux2.IN9
+b => Mux3.IN9
+b => Mux4.IN9
+b => Mux5.IN9
+b => Mux6.IN9
+b => Mux7.IN9
+c => Mux0.IN10
+c => Mux1.IN10
+c => Mux2.IN10
+c => Mux3.IN10
+c => Mux4.IN10
+c => Mux5.IN10
+c => Mux6.IN10
+c => Mux7.IN10
+
+
