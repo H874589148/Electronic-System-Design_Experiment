@@ -1,0 +1,233 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:/seq_detec_hr/simulation/modelsim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1603972987
+VB=HDz[lmDH3o?`cGVB8UB1
+04 15 7 work seq_detec_hr_tb arch_tb 1
+=1-6c0b84915374-5f9aaf7b-c0-1418
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+n@_opt
+OL;O;10.2c;57
+Edivider_sel_hr
+Z2 w1603972184
+Z3 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+Z5 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z7 dE:/seq_detec_hr/simulation/modelsim
+Z8 8E:/seq_detec_hr/divider_sel_hr.vhd
+Z9 FE:/seq_detec_hr/divider_sel_hr.vhd
+l0
+L7
+VRB`IH2RI>K3agYj@0<JA62
+Z10 OL;C;10.2c;57
+31
+Z11 !s110 1603972986
+Z12 !s108 1603972986.974000
+Z13 !s90 -reportprogress|300|-93|-work|work|E:/seq_detec_hr/divider_sel_hr.vhd|
+Z14 !s107 E:/seq_detec_hr/divider_sel_hr.vhd|
+Z15 o-93 -work work
+Z16 tExplicit 1
+!s100 g7om6^Cm@NQTmW;Ji@iC:2
+!i10b 1
+!i111 0
+Adiv
+R3
+R4
+R5
+R6
+DEx4 work 14 divider_sel_hr 0 22 RB`IH2RI>K3agYj@0<JA62
+l18
+L16
+Vm4h;2_deid7M<J_ml>X_d0
+R10
+31
+R11
+R12
+R13
+R14
+R15
+R16
+!s100 0?m@B`P6T86U5SRI<WkjJ3
+!i10b 1
+!i111 0
+Eseq_detec_hr
+Z17 w1603972180
+R3
+R4
+R5
+R6
+R7
+Z18 8E:/seq_detec_hr/seq_detec_hr.vhd
+Z19 FE:/seq_detec_hr/seq_detec_hr.vhd
+l0
+L7
+VJ@GAR63iU9jNWSOOdPihH2
+R10
+31
+R11
+Z20 !s108 1603972986.912000
+Z21 !s90 -reportprogress|300|-93|-work|work|E:/seq_detec_hr/seq_detec_hr.vhd|
+Z22 !s107 E:/seq_detec_hr/seq_detec_hr.vhd|
+R15
+R16
+!s100 X=0H[:@6>R;>?MVG0<M>=1
+!i10b 1
+!i111 0
+Awhole
+R3
+R4
+R5
+R6
+DEx4 work 12 seq_detec_hr 0 22 J@GAR63iU9jNWSOOdPihH2
+l49
+L17
+VQ@SVTFPP`f@QibXnO9AWX2
+R10
+31
+R11
+R20
+R21
+R22
+R15
+R16
+!s100 Gn`Yh?H3^H_Qk;aPHgz];1
+!i10b 1
+!i111 0
+Eseq_detec_hr_tb
+Z23 w1603972737
+R4
+R3
+R5
+R6
+R7
+Z24 8E:/seq_detec_hr/seq_detec_hr_tb.vhd
+Z25 FE:/seq_detec_hr/seq_detec_hr_tb.vhd
+l0
+L8
+V^3MN71>M:fM4DbQUn=QS23
+R10
+31
+R1
+Z26 !s108 1603972987.021000
+Z27 !s90 -reportprogress|300|-93|-work|work|E:/seq_detec_hr/seq_detec_hr_tb.vhd|
+Z28 !s107 E:/seq_detec_hr/seq_detec_hr_tb.vhd|
+R15
+R16
+!s100 nm2^h3h7>kmmDKILM52PV2
+!i10b 1
+!i111 0
+Aarch_tb
+R4
+R3
+R5
+R6
+DEx4 work 15 seq_detec_hr_tb 0 22 ^3MN71>M:fM4DbQUn=QS23
+l26
+L11
+Vk[BR[KP]_6RU:NT1K5I7G2
+R10
+31
+R1
+R26
+R27
+R28
+R15
+R16
+!s100 SohkcXYYfaof5z8m?XMdB0
+!i10b 1
+!i111 0
+Eseq_detector_hr
+Z29 w1603971557
+R3
+R4
+R5
+R6
+R7
+Z30 8E:/seq_detec_hr/seq_detector_hr.vhd
+Z31 FE:/seq_detec_hr/seq_detector_hr.vhd
+l0
+L7
+V`T>V9HM0[ZZ6R@Y[[^gnT0
+R10
+31
+R11
+Z32 !s108 1603972986.865000
+Z33 !s90 -reportprogress|300|-93|-work|work|E:/seq_detec_hr/seq_detector_hr.vhd|
+Z34 !s107 E:/seq_detec_hr/seq_detector_hr.vhd|
+R15
+R16
+!s100 `k<Cb6W3aX4I^R[[0jKSA0
+!i10b 1
+!i111 0
+Afsm
+R3
+R4
+R5
+R6
+DEx4 work 15 seq_detector_hr 0 22 `T>V9HM0[ZZ6R@Y[[^gnT0
+l20
+L16
+VWkeg9`2BlJgTSCPAAzQGL2
+R10
+31
+R11
+R32
+R33
+R34
+R15
+R16
+!s100 P5BdANTjO0JBRH=:`4`<g3
+!i10b 1
+!i111 0
+Eseq_generator_hr
+Z35 w1603971334
+R3
+R4
+R5
+R6
+R7
+Z36 8E:/seq_detec_hr/seq_generator_hr.vhd
+Z37 FE:/seq_detec_hr/seq_generator_hr.vhd
+l0
+L7
+V;[;43n1@3<dHTfQF9`hEQ2
+R10
+31
+R11
+Z38 !s108 1603972986.802000
+Z39 !s90 -reportprogress|300|-93|-work|work|E:/seq_detec_hr/seq_generator_hr.vhd|
+Z40 !s107 E:/seq_detec_hr/seq_generator_hr.vhd|
+R15
+R16
+!s100 7R>6z3UGCI6GZ0>jk=aG`2
+!i10b 1
+!i111 0
+Afsm
+R3
+R4
+R5
+R6
+DEx4 work 16 seq_generator_hr 0 22 ;[;43n1@3<dHTfQF9`hEQ2
+l20
+L16
+V9_01d@=GkhH@4kkPNCC190
+R10
+31
+R11
+R38
+R39
+R40
+R15
+R16
+!s100 I8^c0UCf7hI=SLjZhO?f^1
+!i10b 1
+!i111 0

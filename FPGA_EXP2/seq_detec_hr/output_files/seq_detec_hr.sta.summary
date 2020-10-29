@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.026
+TNS   : -37.355
+
+Type  : Slow 1100mV 85C Model Setup 'div_sel[0]'
+Slack : -1.891
+TNS   : -29.620
+
+Type  : Slow 1100mV 85C Model Hold 'div_sel[0]'
+Slack : 0.260
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.550
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'div_sel[0]'
+Slack : -0.724
+TNS   : -45.086
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -26.639
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -2.216
+TNS   : -40.735
+
+Type  : Slow 1100mV 0C Model Setup 'div_sel[0]'
+Slack : -2.029
+TNS   : -31.036
+
+Type  : Slow 1100mV 0C Model Hold 'div_sel[0]'
+Slack : 0.247
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'div_sel[0]'
+Slack : -0.774
+TNS   : -49.745
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -26.497
+
+Type  : Fast 1100mV 85C Model Setup 'div_sel[0]'
+Slack : -0.271
+TNS   : -3.201
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -0.238
+TNS   : -2.022
+
+Type  : Fast 1100mV 85C Model Hold 'div_sel[0]'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'div_sel[0]'
+Slack : -0.494
+TNS   : -15.038
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.097
+TNS   : -2.317
+
+Type  : Fast 1100mV 0C Model Setup 'div_sel[0]'
+Slack : -0.238
+TNS   : -2.299
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.219
+TNS   : -1.720
+
+Type  : Fast 1100mV 0C Model Hold 'div_sel[0]'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'div_sel[0]'
+Slack : -0.501
+TNS   : -15.122
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.098
+TNS   : -2.316
+
+------------------------------------------------------------

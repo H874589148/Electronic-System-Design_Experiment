@@ -1,0 +1,105 @@
+|seq_detec_hr
+clk => divider_sel_hr:div.clk_in
+reset => seq_detector_hr:detect.reset
+reset => seq_generator_hr:gen.reset
+reset => divider_sel_hr:div.reset
+sel => seq_generator_hr:gen.sel
+div_sel[0] => divider_sel_hr:div.div_sel[0]
+div_sel[1] => divider_sel_hr:div.div_sel[1]
+detector_out <= seq_detector_hr:detect.detector_out
+
+
+|seq_detec_hr|seq_detector_hr:detect
+clk => Crst~1.DATAIN
+reset => Crst~3.DATAIN
+datainput => Nxst.S1.DATAB
+datainput => Nxst.S2.DATAB
+datainput => Nxst.S3.DATAB
+datainput => Nxst.S5.DATAB
+datainput => Nxst.S8.DATAB
+datainput => Nxst.S9.DATAB
+datainput => Selector0.IN1
+datainput => Nxst.S4.DATAB
+datainput => Nxst.S6.DATAB
+datainput => Nxst.S7.DATAB
+detector_out <= detector_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_detec_hr|seq_generator_hr:gen
+clk => Crst~1.DATAIN
+reset => Crst~3.DATAIN
+sel => Selector0.IN1
+sel => Selector0.IN0
+dataout <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_detec_hr|divider_sel_hr:div
+clk_in => cnt[0].CLK
+clk_in => cnt[1].CLK
+clk_in => cnt[2].CLK
+clk_in => cnt[3].CLK
+clk_in => cnt[4].CLK
+clk_in => cnt[5].CLK
+clk_in => cnt[6].CLK
+clk_in => cnt[7].CLK
+clk_in => cnt[8].CLK
+clk_in => cnt[9].CLK
+clk_in => cnt[10].CLK
+clk_in => cnt[11].CLK
+clk_in => cnt[12].CLK
+clk_in => cnt[13].CLK
+clk_in => cnt[14].CLK
+clk_in => cnt[15].CLK
+clk_in => cnt[16].CLK
+clk_in => cnt[17].CLK
+clk_in => cnt[18].CLK
+clk_in => cnt[19].CLK
+clk_in => cnt[20].CLK
+clk_in => cnt[21].CLK
+clk_in => cnt[22].CLK
+clk_in => cnt[23].CLK
+clk_in => cnt[24].CLK
+clk_in => cnt[25].CLK
+clk_in => cnt[26].CLK
+clk_in => cnt[27].CLK
+clk_in => cnt[28].CLK
+clk_in => cnt[29].CLK
+clk_in => cnt[30].CLK
+clk_in => cnt[31].CLK
+reset => cnt[0].ACLR
+reset => cnt[1].ACLR
+reset => cnt[2].ACLR
+reset => cnt[3].ACLR
+reset => cnt[4].ACLR
+reset => cnt[5].ACLR
+reset => cnt[6].ACLR
+reset => cnt[7].ACLR
+reset => cnt[8].ACLR
+reset => cnt[9].ACLR
+reset => cnt[10].ACLR
+reset => cnt[11].ACLR
+reset => cnt[12].ACLR
+reset => cnt[13].ACLR
+reset => cnt[14].ACLR
+reset => cnt[15].ACLR
+reset => cnt[16].ACLR
+reset => cnt[17].ACLR
+reset => cnt[18].ACLR
+reset => cnt[19].ACLR
+reset => cnt[20].ACLR
+reset => cnt[21].ACLR
+reset => cnt[22].ACLR
+reset => cnt[23].ACLR
+reset => cnt[24].ACLR
+reset => cnt[25].ACLR
+reset => cnt[26].ACLR
+reset => cnt[27].ACLR
+reset => cnt[28].ACLR
+reset => cnt[29].ACLR
+reset => cnt[30].ACLR
+reset => cnt[31].ACLR
+div_sel[0] => Mux0.IN1
+div_sel[1] => Mux0.IN0
+clk_out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

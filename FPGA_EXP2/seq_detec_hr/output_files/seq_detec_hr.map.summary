@@ -1,0 +1,19 @@
+Analysis & Synthesis Status : Successful - Thu Oct 29 20:16:35 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : seq_detec_hr
+Top-level Entity Name : seq_detec_hr
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 43
+Total pins : 6
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI PMA RX ATT Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total HSSI PMA TX ATT Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

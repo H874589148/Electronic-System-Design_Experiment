@@ -1,0 +1,25 @@
+
+State Machine - |seq_detec_hr|seq_generator_hr:gen|Crst
+Name Crst.S8 Crst.S7 Crst.S6 Crst.S5 Crst.S4 Crst.S3 Crst.S2 Crst.S1 Crst.S0 
+Crst.S0 0 0 0 0 0 0 0 0 0 
+Crst.S1 0 0 0 0 0 0 0 1 1 
+Crst.S2 0 0 0 0 0 0 1 0 1 
+Crst.S3 0 0 0 0 0 1 0 0 1 
+Crst.S4 0 0 0 0 1 0 0 0 1 
+Crst.S5 0 0 0 1 0 0 0 0 1 
+Crst.S6 0 0 1 0 0 0 0 0 1 
+Crst.S7 0 1 0 0 0 0 0 0 1 
+Crst.S8 1 0 0 0 0 0 0 0 1 
+
+State Machine - |seq_detec_hr|seq_detector_hr:detect|Crst
+Name Crst.S9 Crst.S8 Crst.S7 Crst.S6 Crst.S5 Crst.S4 Crst.S3 Crst.S2 Crst.S1 Crst.S0 
+Crst.S0 0 0 0 0 0 0 0 0 0 0 
+Crst.S1 0 0 0 0 0 0 0 0 1 1 
+Crst.S2 0 0 0 0 0 0 0 1 0 1 
+Crst.S3 0 0 0 0 0 0 1 0 0 1 
+Crst.S4 0 0 0 0 0 1 0 0 0 1 
+Crst.S5 0 0 0 0 1 0 0 0 0 1 
+Crst.S6 0 0 0 1 0 0 0 0 0 1 
+Crst.S7 0 0 1 0 0 0 0 0 0 1 
+Crst.S8 0 1 0 0 0 0 0 0 0 1 
+Crst.S9 1 0 0 0 0 0 0 0 0 1 
